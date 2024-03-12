@@ -20,7 +20,7 @@ namespace TestWorkLoad
             using var connection = new SqlConnection(connectionString);
 
 
-            await connection.OpenAsync();
+            await connection.OpenAsync(); 
             Console.WriteLine("Conexión a SqlServer exitosa");  
 
             var categorias = await connection.QueryAsync<Category>("SELECT TOP 10 CategoryId, Name from [Admin].[Category]");
