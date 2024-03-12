@@ -8,9 +8,9 @@ Console.WriteLine("Hello, World!");
 
 
 string keyVaultName = "KV-AEU-ECP-DEV-TRUE";
-string clientId = Environment.GetEnvironmentVariable("AZURE_CLIENT_ID",EnvironmentVariableTarget.Machine);
-string tenantId = Environment.GetEnvironmentVariable("AZURE_TENANT_ID", EnvironmentVariableTarget.Machine);
-string clientSecret = Environment.GetEnvironmentVariable("AZURE_CLIENT_SECRET", EnvironmentVariableTarget.Machine);
+string clientId = Environment.GetEnvironmentVariable("AZURE_CLIENT_ID");
+string tenantId = Environment.GetEnvironmentVariable("AZURE_TENANT_ID");
+string clientSecret = Environment.GetEnvironmentVariable("AZURE_CLIENT_SECRET");
 
 Console.WriteLine("Imprimiendo Key vault Name " + keyVaultName);
 Console.WriteLine(clientId);
