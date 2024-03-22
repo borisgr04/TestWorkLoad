@@ -70,4 +70,16 @@ catch (Exception ex)
 }
 
 
+//
+try
+{
+    var context = new DbTest();
+    var c= context.Category.First();
+    Console.WriteLine($"Test Azure DbContext SqlServer Service Id:{c.CategoryId} Name:{c.Name}");
+    
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Test Azure DbContext  SqlServer {ex.Message}, {ex.StackTrace} ");
+}
 
