@@ -55,6 +55,7 @@ catch (Exception ex)
     Console.WriteLine($"Test Azure Blob {ex.Message}, {ex.StackTrace} ");
 }
 
+//TableStorage
 
 try
 {
@@ -67,3 +68,6 @@ catch (Exception ex)
 {
     Console.WriteLine($"Test Azure SqlServer {ex.Message}, {ex.StackTrace} ");
 }
+
+
+

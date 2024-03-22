@@ -16,7 +16,7 @@
 	<PackageReference Include="Azure.Messaging.ServiceBus" Version="7.17.4" />
 	<PackageReference Include="Azure.Storage.Blobs" Version="12.19.1" />
 	<PackageReference Include="Azure.Security.KeyVault.Keys" Version="4.6.0" />
-	<PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+	<PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
 	<PackageReference Include="Dapper" Version="2.1.35" />
   </ItemGroup>
     
