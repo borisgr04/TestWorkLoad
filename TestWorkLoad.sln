@@ -5,8 +5,6 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWorkLoad", "TestWorkLoad.csproj", "{8A2F7112-81F8-464A-BE71-C4B1B2F50311}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebK8s", "..\TestWebK8s\TestWebK8s.csproj", "{B5E7E63A-45A1-45F3-8075-BBCCAB385F5A}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{8A2F7112-81F8-464A-BE71-C4B1B2F50311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A2F7112-81F8-464A-BE71-C4B1B2F50311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A2F7112-81F8-464A-BE71-C4B1B2F50311}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B5E7E63A-45A1-45F3-8075-BBCCAB385F5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B5E7E63A-45A1-45F3-8075-BBCCAB385F5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B5E7E63A-45A1-45F3-8075-BBCCAB385F5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B5E7E63A-45A1-45F3-8075-BBCCAB385F5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
