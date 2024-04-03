@@ -17,7 +17,8 @@ Console.WriteLine(clientId);
 Console.WriteLine(tenantId);
 Console.WriteLine(clientSecret);
 
-var kvUri = "https://" + keyVaultName + ".vault.azure.net";
+var kvUri = $"https://{keyVaultName}.vault.azure.net";
+
 
 var client = new SecretClient(
                 new Uri(kvUri),
@@ -73,7 +74,7 @@ catch (Exception ex)
 //
 try
 {
-    var context = new DbTest();
+    var context = new DbContextTest();
     var c= context.Category.First();
     Console.WriteLine($"Test Azure DbContext SqlServer Service Id:{c.CategoryId} Name:{c.Name}");
     
