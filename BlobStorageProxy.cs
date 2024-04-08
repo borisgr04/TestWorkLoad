@@ -41,8 +41,14 @@ namespace TestWorkLoad
                 {
                     Console.WriteLine("Conexión exitosa a Storage");
                     Console.WriteLine("Created container {0}", container.Name);
+                    blobServiceClient.DeleteBlobContainer(containerName);
+                    Console.WriteLine("Eliminado container {0}", container.Name);
                     return container;
                 }
+                
+
+
+
             }
             catch (RequestFailedException e)
             {
